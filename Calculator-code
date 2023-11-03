@@ -1,0 +1,29 @@
+def add(first,second):
+    print("Addittion of {0}+{1}={2}".format(first,second,first+second))
+def sub(first,second):
+    print("Subtraction of {0}-{1}={2}".format(first,second,first-second))
+def mul(first,second):
+    print("Muiltiplication of {0}*{1}={2}".format(first,second,first*second))
+def div(first,second):
+    print("Division of {0}/{1}={2}".format(first,second,int(first/second)))
+app="-calculator-"
+print(app.center(40, '#'))    
+print("1-add\n2-sub\n3-mul\n4-div")
+select=int(input("select one option:"))
+if select > 4:
+    print("please select the right option")
+    exit()
+first=int(input("Enter first value:"))
+second=int(input("Enters second value:"))
+
+if select == 1:
+    add(first,second)
+elif select == 2:
+    sub(first,second)
+elif select == 3:
+    mul(first,second)
+else:
+    div(first,second)        
+
+    
+    
