@@ -1,0 +1,9 @@
+def mul(t,v):
+    return t*v
+i=0
+table=int(input("Enter table name:"))
+last=int(input("Enter last number to stop:"))
+
+while i <= last:
+    print("{0} * {1} = {2}".format(table,i,mul(table,i)))
+    i=i+1
