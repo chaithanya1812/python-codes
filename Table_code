@@ -7,3 +7,22 @@ last=int(input("Enter last number to stop:"))
 while i <= last:
     print("{0} * {1} = {2}".format(table,i,mul(table,i)))
     i=i+1
+##########################################
+###########LOGIC-2#######################
+    i=0
+    table=int(input("Enter table name:"))
+    last=int(input("Enter last number to stop:"))
+
+    while i <= last:
+        print("{0} * {1} = {2}".format(table,i,table*i)
+        i=i+1
+#################################################
+##############Logic-3############################
+i=0
+table=int(input("Enter table name:"))
+last=int(input("Enter last number to stop:"))
+last=last+1
+for i in range(0,last):
+    print("{0} * {1} = {2}".format(table,i,table*i))
+
+    
